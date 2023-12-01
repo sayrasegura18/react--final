@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda para Mascotas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #f8d7da;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f8d7da;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center; /* Alinea verticalmente */
+        }
+
+        .product-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        img.product-image {
+            max-width: 80%; /* Reducir el ancho de la imagen */
+            height: auto;
+            border-radius: 12px; /* Puedes ajustar la redondez aquí */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8d7da;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .slider {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda para Mascotas</h1>
+    </header>
+
+    <nav>
+        <a href="#">Productos</a>
+        <a href="#">Inicio</a>
+        <a href="#">Conócenos</a>
+        <a href="#">Iniciar Sesión</a>
+        <a href="#">Registrarme</a>
+    </nav>
+
+    <main>
+        <section>
+            <img class="product-image" src="imagen1.jpg" alt="Producto 1">
+            <div class="product-info">
+                <h2>Nuestros Productos Destacados</h2>
+                <p>Descripción del producto 1. Agrega aquí tu texto interesante.</p>
+            </div>
+        </section>
+
+        <section>
+            <img class="product-image" src="imagen2.jpg" alt="Producto 2">
+            <div class="product-info">
+                <p>Descripción del producto 2. Agrega aquí tu texto interesante.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="slider">
+        <!-- Puedes colocar aquí tu implementación real de un slider -->
+        <img src="slider1.jpg" alt="Slider 1">
+        <img src="slider2.jpg" alt="Slider 2">
+        <img src="slider3.jpg" alt="Slider 3">
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Tienda para Mascotas. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
